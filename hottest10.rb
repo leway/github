@@ -11,9 +11,9 @@ puts "welcome to hottest10 !"
 
 loop do
 
-	print "now tell me a number from 1 to 15 in your mind :  "
+	print "now tell me a number from 0 to 15 in your mind :  "
 
-	page=Integer(gets. chomp) 
+	page=gets.chomp.to_i
 
 	puts "would you like to check out the hottest tracks on soundcloud by genre or latest ?"
  
